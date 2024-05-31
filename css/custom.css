@@ -1,0 +1,122 @@
+/* Custom Media Queries for Responsiveness */
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .carousel-caption {
+        text-align: center;
+    }
+
+    .carousel-content h1, .carousel-content h6 {
+        font-size: 1.5rem;
+    }
+
+    .carousel-content button {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+
+    .services-item img {
+        width: 100%;
+        height: auto;
+    }
+
+    .about-content h1 {
+        font-size: 2rem;
+    }
+
+    .about-content p {
+        font-size: 1rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px to 768px) */
+@media (min-width: 600px) and (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .carousel-caption {
+        text-align: center;
+    }
+
+    .carousel-content h1, .carousel-content h6 {
+        font-size: 2rem;
+    }
+
+    .carousel-content button {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+
+    .services-item img {
+        width: 100%;
+        height: auto;
+    }
+
+    .about-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .about-content p {
+        font-size: 1.1rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px to 992px) */
+@media (min-width: 768px) and (max-width: 992px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .carousel-caption {
+        text-align: center;
+    }
+
+    .carousel-content h1, .carousel-content h6 {
+        font-size: 2.5rem;
+    }
+
+    .carousel-content button {
+        width: auto;
+        margin: 0.5rem 1rem;
+    }
+
+    .services-item img {
+        width: 100%;
+        height: auto;
+    }
+
+    .about-content h1 {
+        font-size: 3rem;
+    }
+
+    .about-content p {
+        font-size: 1.2rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .navbar-nav {
+        text-align: left;
+    }
+
+   
+
+    .services-item img {
+        width: 100%;
+        height: auto;
+    }
+
+    .about-content h1 {
+        font-size: 3.5rem;
+    }
+
+    .about-content p {
+        font-size: 1.3rem;
+    }
+}
